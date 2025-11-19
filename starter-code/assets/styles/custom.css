@@ -61,7 +61,7 @@
     - Recommended fallbacks: sans-serif / serif
    ================================ */
 
-  --ff-base: 'Barlow Semi Condensed', sans-serif;
+  --ff-base: 'Red Hat Display', sans-serif;
 
   /* ================================
    FONT WEIGHTS
@@ -72,7 +72,7 @@
 
 
   --fw-medium: 500;
-  --fw-semibold: 600;
+  --fw-black: 900;
 
 
   /* ================================
@@ -83,6 +83,7 @@
    ================================ */
 
   --ls-none: 0; /* 0 */
+  --ls-loose: 0.25rem; /* 4px */
  
 
   /* ================================
@@ -93,9 +94,12 @@
    - Add project-specific values as needed
    ================================ */
 
-  --fs-preset-1: 1.25rem; /* 20px */
-  --fs-preset-2-3: 0.8rem; /* 13px */
-  --fs-preset-4:  0.7rem; /* 11px */
+  --fs-preset-1: 4.00rem; /* 64px */
+  --fs-preset-2: 2.50rem; /* 40px */
+  --fs-preset-3: 1.00rem; /* 16px */
+  --fs-preset-4: 1.1rem; /* 18px */
+  --fs-preset-5: 1.00rem; /* 16px */
+ 
 
   /* ================================
    LINE HEIGHTS
@@ -105,8 +109,7 @@
    ================================ */
 
   --lh-110: 1.1;
-  --lh-120: 1.2;
-  --lh-140: 1.4;
+  --lh-150: 1.5;
 }
 
 /* ================================
@@ -118,27 +121,4 @@
    - Use `font-display: swap` for better performance
    ================================ */
 
-/* barlow-semi-condensed-regular - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Barlow Semi Condensed';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/barlow-semi-condensed-v16-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* barlow-semi-condensed-500 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Barlow Semi Condensed';
-  font-style: normal;
-  font-weight: 500;
-  src: url('../fonts/barlow-semi-condensed-v16-latin/barlow-semi-condensed-v16-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* barlow-semi-condensed-600 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Barlow Semi Condensed';
-  font-style: normal;
-  font-weight: 600;
-  src: url('../fonts/barlow-semi-condensed-v16-latin/barlow-semi-condensed-v16-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
+
