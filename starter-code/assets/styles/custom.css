@@ -1,0 +1,138 @@
+:root {
+  /*  ================================
+   LAYOUTS & MEDIA QUERIES:
+    - Mobile: 375px
+    - Tablet: 768px -> @media (min-width: 48rem) {}
+    - Desktop: 1440px -> @media (min-width: 90rem) {}
+   ================================ */
+
+  /* ================================
+   COLORS
+
+   - Add your custom palette here
+   - Keep the primary / neutral / basic color division
+   ================================ */
+
+  /* Primary */
+--clr-primary-purple-300: hsl(268, 100%, 86%);
+--clr-primary-purple-600: hsl(268, 34%, 53%);
+
+
+
+  /* Neutral  */
+--clr-neutral-slate-300: hsl(240, 18%, 85%);
+--clr-neutral-slate-300: hsl(240, 10%, 57%);
+--clr-neutral-slate-900: hsl(240, 21%, 20%);
+
+
+  /* Dark */
+ 
+
+  /* Basic */
+
+  --clr-basic-white: hsl(0, 0%, 98%);
+ 
+
+  /* ================================
+   SPACING
+
+    - Clean up or extend spacing tokens as needed
+    - Keep consistent incremental scale (0, 100, 200, 300…)
+    - Add new values specific to the project if required (https://elementor.com/blog/px-to-rem/)
+   ================================ */
+
+  --spacing-50: 0.25rem; /* 4px */
+  --spacing-100: 0.5rem; /* 8px */
+  --spacing-200: 1rem; /* 16px */
+  --spacing-300: 1.5rem; /* 24px */
+  --spacing-400: 2rem; /* 32px */
+  --spacing-500: 2.5rem; /* 40px */
+
+  /* ================================
+   TYPOGRAPHY
+
+    - Important: always include fallback font families
+    - Recommended fallbacks: sans-serif / serif
+   ================================ */
+
+  --ff-base: 'Barlow Semi Condensed', sans-serif;
+
+  /* ================================
+   FONT WEIGHTS
+
+    - Clean up or extend core weight tokens as needed
+    - Add new values specific to the project if required
+   ================================ */
+
+
+  --fw-medium: 500;
+  --fw-semibold: 600;
+
+
+  /* ================================
+   LETTER SPACING
+
+   - Define none / tight / loose presets
+   - Use rem units for better scaling across sizes
+   ================================ */
+
+  --ls-none: 0; /* 0 */
+ 
+
+  /* ================================
+   FONT SIZES
+
+   - Match naming to your design tool (e.g., Figma presets)
+   - Use relative units for responsive scaling
+   - Add project-specific values as needed
+   ================================ */
+
+  --fs-preset-1: 1.25rem; /* 20px */
+  --fs-preset-2-3: 0.8rem; /* 13px */
+  --fs-preset-4:  0.7rem; /* 11px */
+
+  /* ================================
+   LINE HEIGHTS
+   
+   - Keep ratios (1.35 / 1.5 / 1.6) consistent with typography scale
+   - Adjust per component type if necessary
+   ================================ */
+
+  --lh-110: 1.1;
+  --lh-120: 1.2;
+  --lh-140: 1.4;
+}
+
+/* ================================
+   FONT DECLARATIONS
+
+   - Define custom fonts used in this project
+   - .woff2 files can be downloaded from:
+     https://gwfh.mranftl.com/fonts
+   - Use `font-display: swap` for better performance
+   ================================ */
+
+/* barlow-semi-condensed-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Barlow Semi Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/barlow-semi-condensed-v16-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* barlow-semi-condensed-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Barlow Semi Condensed';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/barlow-semi-condensed-v16-latin/barlow-semi-condensed-v16-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* barlow-semi-condensed-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Barlow Semi Condensed';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/barlow-semi-condensed-v16-latin/barlow-semi-condensed-v16-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
