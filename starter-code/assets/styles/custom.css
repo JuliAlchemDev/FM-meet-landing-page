@@ -1,0 +1,139 @@
+:root {
+  /*  ================================
+   LAYOUTS & MEDIA QUERIES:
+    - Mobile: 375px
+    - Tablet: 768px -> @media (min-width: 48rem) {}
+    - Desktop: 1440px -> @media (min-width: 90rem) {}
+   ================================ */
+
+  /* ================================
+   COLORS
+
+   - Add your custom palette here
+   - Keep the primary / neutral / basic color division
+   ================================ */
+
+  /* Primary */
+--clr-primary-cyan-600: hsl(192, 37%, 48%);
+--clr-primary-purple-600: hsl(268, 34%, 53%);
+
+  /* Secondary */
+
+--clr-secondary-purple-300: hsl(268, 100%, 86%);
+--clr-secondary-cyan-300: hsl(192, 90%, 77%);
+
+  /* Neutral  */
+--clr-neutral-slate-300: hsl(240, 18%, 85%);
+--clr-neutral-slate-300: hsl(240, 10%, 57%);
+--clr-neutral-slate-900: hsl(240, 21%, 20%);
+
+  /* Basic */
+
+  --clr-basic-white: hsl(0, 0%, 98%);
+ 
+
+  /* ================================
+   SPACING
+
+    - Clean up or extend spacing tokens as needed
+    - Keep consistent incremental scale (0, 100, 200, 300…)
+    - Add new values specific to the project if required (https://elementor.com/blog/px-to-rem/)
+   ================================ */
+
+  --spacing-50: 0.25rem; /* 4px */
+  --spacing-100: 0.5rem; /* 8px */
+  --spacing-200: 1rem; /* 16px */
+  --spacing-300: 1.5rem; /* 24px */
+  --spacing-400: 2rem; /* 32px */
+  --spacing-500: 2.5rem; /* 40px */
+
+  --spacing-700: 3.50rem; /* 56px */
+  --spacing-800: 4.00rem; /* 64px */
+  --spacing-900: 4.50rem; /* 72px */
+  --spacing-1000: 5.00rem; /* 80px */
+  --spacing-1400: 7.00rem; /* 112px */
+ 
+
+  /* ================================
+   TYPOGRAPHY
+
+    - Important: always include fallback font families
+    - Recommended fallbacks: sans-serif / serif
+   ================================ */
+
+  --ff-base: 'Red Hat Display', sans-serif;
+
+  /* ================================
+   FONT WEIGHTS
+
+    - Clean up or extend core weight tokens as needed
+    - Add new values specific to the project if required
+   ================================ */
+
+
+  --fw-medium: 500;
+  --fw-black: 900;
+
+
+  /* ================================
+   LETTER SPACING
+
+   - Define none / tight / loose presets
+   - Use rem units for better scaling across sizes
+   ================================ */
+
+  --ls-none: 0; /* 0 */
+  --ls-loose: 0.25rem; /* 4px */
+ 
+
+  /* ================================
+   FONT SIZES
+
+   - Match naming to your design tool (e.g., Figma presets)
+   - Use relative units for responsive scaling
+   - Add project-specific values as needed
+   ================================ */
+
+  --fs-preset-1: 4.00rem; /* 64px */
+  --fs-preset-2: 2.50rem; /* 40px */
+  --fs-preset-3: 1.00rem; /* 16px */
+  --fs-preset-4: 1.1rem; /* 18px */
+  --fs-preset-5: 1.00rem; /* 16px */
+ 
+
+  /* ================================
+   LINE HEIGHTS
+   
+   - Keep ratios (1.35 / 1.5 / 1.6) consistent with typography scale
+   - Adjust per component type if necessary
+   ================================ */
+
+  --lh-110: 1.1;
+  --lh-150: 1.5;
+}
+
+/* ================================
+   FONT DECLARATIONS
+
+   - Define custom fonts used in this project
+   - .woff2 files can be downloaded from:
+     https://gwfh.mranftl.com/fonts
+   - Use `font-display: swap` for better performance
+   ================================ */
+
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/red-hat-display-v21-latin/red-hat-display-v21-latin-500.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/red-hat-display-v21-latin/red-hat-display-v21-latin-900.woff2') format('woff2'); 
+}
