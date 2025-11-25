@@ -1,0 +1,12 @@
+.logo {
+    --margin-top: var(--spacing-600); /* Mobile, Tablet -> 48px; */
+    display: grid;
+    place-items: center;
+    margin-block-start: var(--margin-top);
+}
+
+@media (min-width: 90rem) {
+    .logo{
+        --margin-top: var(--spacing-1000); /*Desktop ->  80px*/
+    }
+}
