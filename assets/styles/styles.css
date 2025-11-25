@@ -1,10 +1,19 @@
+body {
+    font-family: var(--ff-base);
+}
 .logo {
     --margin-top: var(--spacing-600); /* Mobile, Tablet -> 48px; */
     display: grid;
     place-items: center;
     margin-block-start: var(--margin-top);
 }
-
+.header {
+    padding: 64px 32px 32px 32px; /* M */
+}
+.header__hero {
+    display: grid;
+    place-items: center;
+}
 .header__hero-title {
     color: var(--clr-neutral-slate-900);
     /* MTD -> preset 1  */
@@ -21,8 +30,30 @@
     font-weight: var(--fw-medium);
     line-height: var(--lh-110);
     letter-spacing: var(--ls-none);
-     text-align: center;
+    text-align: center;
+    margin-block: 24px; /* MT 24px */ /* 32px */
 }
+
+.header__cta {
+    width: max-content;
+    padding:  16px 40px;
+
+    border: 0;
+    border-radius: 1.8rem;
+    background-color: var(--clr-primary-purple-600);
+
+    color: var(--clr-basic-white);
+    /* M preset 5 */
+    font-size: var(--fs-preset-5);
+    font-weight: var(--fw-black);
+    line-height: var(--lh-150);
+    letter-spacing: var(--ls-none);
+}
+.header__cta.download {
+    background-color: var(--clr-primary-cyan-600);
+    margin-block-end: 16px; /* M*/
+}
+
 @media (min-width: 90rem) {
     .logo{
         --margin-top: var(--spacing-1000); /*Desktop ->  80px*/
