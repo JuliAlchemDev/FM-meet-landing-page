@@ -5,6 +5,24 @@
     margin-block-start: var(--margin-top);
 }
 
+.header__hero-title {
+    color: var(--clr-neutral-slate-900);
+    /* MTD -> preset 1  */
+     font-size: var(--fs-preset-1);
+    font-weight: var(--fw-black);
+    line-height: var(--lh-110);
+    letter-spacing: var(--ls-none);
+     text-align: center;
+}
+.header__hero-description {
+    color: var(--clr-neutral-slate-600);
+    /* MTD preset 4 */
+    font-size: var(--fs-preset-4);
+    font-weight: var(--fw-medium);
+    line-height: var(--lh-110);
+    letter-spacing: var(--ls-none);
+     text-align: center;
+}
 @media (min-width: 90rem) {
     .logo{
         --margin-top: var(--spacing-1000); /*Desktop ->  80px*/
