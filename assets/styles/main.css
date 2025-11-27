@@ -1,8 +1,28 @@
 .main__article {
   text-align: center;
+  font-family: var(--ff-base);
 }
 .main__article .main__recap {
-  color: red;
+  color: var(--clr-primary-cyan-600);
+  font-size: var(--fs-preset-3);
+  font-weight: var(--fw-black);
+  line-height: var(--lh-110);
+  letter-spacing: var(--ls-loose);
+}
+.main__article .main__title {
+  color: var(--clr-neutral-slate-900);
+  margin-block: 16px 32px;
+  font-size: var(--fs-preset-2);
+  font-weight: var(--fw-black);
+  line-height: var(--lh-110);
+  letter-spacing: var(--ls-none);
+}
+.main__article .main__description {
+  color: var(--clr-neutral-slate-600);
+  font-size: var(--fs-preset-4);
+  font-weight: var(--fw-medium);
+  line-height: var(--lh-110);
+  letter-spacing: var(--ls-none);
 }
 
 /*# sourceMappingURL=main.css.map */
