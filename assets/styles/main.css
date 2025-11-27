@@ -47,20 +47,21 @@
 }
 
 .main__collage {
+  --grid-gap: var(--spacing-200);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 16px;
+  gap: var(--grid-gap);
 }
 
 @media (min-width: 48rem) {
   .main__collage {
+    --grid-gap: var(--spacing-300);
     grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
   }
 }
 @media (min-width: 90rem) {
   .main__collage {
-    gap: 32px;
+    --grid-gap: var(--spacing-400);
   }
   .main__collage-item img {
     border-radius: 8px;
