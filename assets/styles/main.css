@@ -2,24 +2,25 @@
   display: grid;
   place-items: center;
   font-family: var(--ff-base);
+  line-height: var(--lh-110);
+  letter-spacing: var(--ls-none);
+}
+.footer .footer__article {
+  padding: 64px 32px;
+  text-align: center;
 }
 .footer .footer__title {
   font-size: var(--fs-preset-2);
   font-weight: var(--fw-black);
-  line-height: var(--lh-110);
-  letter-spacing: var(--ls-none);
 }
 .footer .footer__description {
   font-size: var(--fs-preset-4);
   font-weight: var(--fw-medium);
-  line-height: var(--lh-110);
-  letter-spacing: var(--ls-none);
 }
 .footer .footer__cta {
   font-size: var(--fs-preset-5);
   font-weight: var(--fw-black);
   line-height: var(--lh-150);
-  letter-spacing: var(--ls-none);
 }
 
 /*# sourceMappingURL=main.css.map */
