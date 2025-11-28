@@ -14,8 +14,9 @@
 }
 .footer .section__separator {
   position: absolute;
-  bottom: 28px;
+  bottom: 0%;
   left: 0%;
+  transform: translateY(-50%);
   height: 56px;
   width: 56px;
   display: grid;
@@ -42,7 +43,7 @@
 }
 .footer .footer__article {
   padding: 64px 32px;
-  padding-block-start: -20px;
+  padding-block-start: 8px;
   display: grid;
   gap: 24px;
   place-items: center;
