@@ -1,5 +1,5 @@
 .footer {
-  --overlay:192, 37%, 48%;
+  --overlay: 192, 37%, 48%;
   display: grid;
   place-items: center;
   font-family: var(--ff-base);
@@ -12,6 +12,9 @@
 }
 .footer .footer__article {
   padding: 64px 32px;
+  display: grid;
+  gap: 24px;
+  place-items: center;
   text-align: center;
   color: var(--clr-basic-white);
 }
@@ -27,6 +30,17 @@
   font-size: var(--fs-preset-5);
   font-weight: var(--fw-black);
   line-height: var(--lh-150);
+  border-radius: 29px;
+  padding: 16px 40px;
+  border: 0;
+  color: var(--clr-basic-white);
+  background-color: var(--clr-primary-purple-600);
+}
+.footer .footer__cta .version {
+  color: var(--clr-secondary-purple-300);
+}
+.footer .footer__cta:hover, .footer .footer__cta:focus {
+  background-color: hsl(268, 55%, 71%);
 }
 
 /*# sourceMappingURL=main.css.map */

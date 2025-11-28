@@ -1,46 +1,61 @@
 .footer {
-      --overlay:192, 37%, 48%;
+  --overlay: 192, 37%, 48%;
 
+  display: grid;
+  place-items: center;
+
+  font-family: var(--ff-base);
+  line-height: var(--lh-110);
+  letter-spacing: var(--ls-none);
+
+  background-image: linear-gradient(
+      hsla(var(--overlay), 0.85),
+      hsla(var(--overlay), 0.85)
+    ),
+    url("../images/mobile/image-footer.jpg");
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  .footer__article {
+    padding: 64px 32px;
     display: grid;
+    gap: 24px;
     place-items: center;
+    text-align: center;
+    color: var(--clr-basic-white);
+  }
+  .footer__title {
+    // preset 2 (MTD)
+    font-size: var(--fs-preset-2);
+    font-weight: var(--fw-black);
+  }
+  .footer__description {
+    // preset 4 (MTD)
+    font-size: var(--fs-preset-4);
+    font-weight: var(--fw-medium);
     
-    font-family: var(--ff-base);
-    line-height: var(--lh-110);
-    letter-spacing: var(--ls-none);
+  }
+  .footer__cta {
+    // preset 5 (MTD)
+    font-size: var(--fs-preset-5);
+    font-weight: var(--fw-black);
+    line-height: var(--lh-150);
 
-   
-      background-image: linear-gradient(hsla(var(--overlay), 0.85), hsla(var(--overlay), 0.85))
-      , url("../images/mobile/image-footer.jpg");
+    border-radius: 29px; //(M)
+    padding: 16px 40px; //(M)
+    border: 0;
 
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-        
-    .footer__article {
-        padding: 64px 32px;
-        text-align: center;
-        color: var(--clr-basic-white);
-    }
-    .footer__title {
-        // preset 2 (MTD)
-        font-size: var(--fs-preset-2);
-        font-weight: var(--fw-black);
+    color: var(--clr-basic-white);
+    background-color: var(--clr-primary-purple-600);
 
-        // white
+    .version{
+        color: var(--clr-secondary-purple-300);
     }
-    .footer__description {
-           // preset 4 (MTD)
-        font-size: var(--fs-preset-4);
-        font-weight: var(--fw-medium);
-       
-        // white
+
+    &:hover, &:focus {
+        background-color: hsl(268, 55%, 71%);
     }
-    .footer__cta {
-        // preset 5 (MTD)
-        font-size: var(--fs-preset-5);
-        font-weight: var(--fw-black);
-        line-height: var(--lh-150);
-       
-        // white 
-    }
+  }
 }
