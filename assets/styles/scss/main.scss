@@ -1,0 +1,29 @@
+.footer {
+    display: grid;
+    place-items: center;
+    font-family: var(--ff-base);
+    .footer__title {
+        // preset 2 (MTD)
+        font-size: var(--fs-preset-2);
+        font-weight: var(--fw-black);
+        line-height: var(--lh-110);
+        letter-spacing: var(--ls-none);
+        // white
+    }
+    .footer__description {
+           // preset 4 (MTD)
+        font-size: var(--fs-preset-4);
+        font-weight: var(--fw-medium);
+        line-height: var(--lh-110);
+        letter-spacing: var(--ls-none);
+        // white
+    }
+    .footer__cta {
+        // preset 5 (MTD)
+        font-size: var(--fs-preset-5);
+        font-weight: var(--fw-black);
+        line-height: var(--lh-150);
+        letter-spacing: var(--ls-none);
+        // white 
+    }
+}
