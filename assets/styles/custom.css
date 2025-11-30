@@ -24,7 +24,7 @@
 
   /* Neutral  */
 --clr-neutral-slate-300: hsl(240, 18%, 85%);
---clr-neutral-slate-300: hsl(240, 10%, 57%);
+--clr-neutral-slate-600: hsl(240, 10%, 57%);
 --clr-neutral-slate-900: hsl(240, 21%, 20%);
 
   /* Basic */
@@ -46,7 +46,7 @@
   --spacing-300: 1.5rem; /* 24px */
   --spacing-400: 2rem; /* 32px */
   --spacing-500: 2.5rem; /* 40px */
-
+  --spacing-600: 3rem; /* 48px */
   --spacing-700: 3.50rem; /* 56px */
   --spacing-800: 4.00rem; /* 64px */
   --spacing-900: 4.50rem; /* 72px */
