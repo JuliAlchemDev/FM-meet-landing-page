@@ -120,7 +120,8 @@
     &:focus {
       background-color: hsl(268, 55%, 71%);
     }
-
+  }
+}
 .main {
   --padding-inline: var(--spacing-400); // 32px
   --padding-bottom: var(--spacing-800); // 64px;
@@ -131,6 +132,7 @@
   display: grid;
   place-items: center;
   gap: var(--spacing-800); // (MTD)
+
 }
 
 @media (min-width: 48rem) {
