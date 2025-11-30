@@ -66,6 +66,13 @@
     max-width: 65%;
   }
   @media (min-width: 90rem) {
+    .footer {
+        background-image: linear-gradient(
+      hsla(var(--overlay), 0.85),
+      hsla(var(--overlay), 0.85)
+    ),
+    url("../images/desktop/image-footer.jpg");
+    }
     .footer__article {
       --article-gap: var(--spacing-400); // 32px (D)
       padding: 0;
