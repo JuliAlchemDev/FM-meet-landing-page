@@ -88,10 +88,24 @@ body {
   letter-spacing: var(--ls-none);
 }
 
+.header__cta:hover,
+.header__cta:focus {
+  background-color: hsl(268, 55%, 71%);
+  cursor: pointer;
+}
+
 .header__cta.download {
   --separate-btn: var(--spacing-200); /* M 16px;*/
   background-color: var(--clr-primary-cyan-600);
   margin-block-end: var(--separate-btn);
+}
+
+.header__cta.download:hover, .header__cta.download:focus {
+  background-color: var(--clr-secondary-cyan-300);
+}
+
+.download-version {
+  color: var(--clr-secondary-cyan-300);
 }
 
 @media (min-width: 48rem) {

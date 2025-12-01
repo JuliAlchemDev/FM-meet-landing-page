@@ -18,5 +18,4 @@
 node_modules/
 
 # Compiled CSS
-/assets/styles/main.css
 /assets/styles/main.css.map
