@@ -1,3 +1,4 @@
+
 .footer {
   --overlay: 192, 37%, 48%;
 
@@ -21,6 +22,7 @@
   position: relative;
 
   margin-block-start: calc(80px + calc(56px / 2));
+  width: 100%;
 
   .section__separator {
     position: absolute;

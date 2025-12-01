@@ -1,5 +1,8 @@
 body {
   font-family: var(--ff-base);
+   overflow-x: hidden;
+   background-color: var(--clr-basic-white);
+
 }
 .logo {
   --margin-top: var(--spacing-600); /* Mobile, Tablet -> 48px; */
@@ -16,6 +19,7 @@ body {
   .header__image-hero {
     width: 100%;
     height: auto;
+     object-fit: cover;
     transform: scale(1.15);
   }
   .header__image-left,
