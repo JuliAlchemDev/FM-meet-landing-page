@@ -101,7 +101,7 @@ body {
 }
 
 .header__cta.download:hover, .header__cta.download:focus {
-  background-color: var(--clr-secondary-cyan-300);
+  background-color: #71C0D4;
 }
 
 .download-version {
