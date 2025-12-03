@@ -1,6 +1,5 @@
 body {
   font-family: var(--ff-base);
-   overflow-x: hidden;
    background-color: var(--clr-basic-white);
 
 }
@@ -17,15 +16,16 @@ body {
   place-items: center;
 
   .header__image-hero {
-    width: 100%;
+    max-inline-size: 100%;
     height: auto;
      object-fit: cover;
     transform: scale(1.15);
   }
   .header__image-left,
   .header__image-right {
-    width: 100%;
-    max-width: 394px;
+        max-inline-size: 100%;
+
+  
     height: auto;
     max-height: 303px;
     display: none;
